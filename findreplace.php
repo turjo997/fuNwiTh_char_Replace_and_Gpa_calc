@@ -10,12 +10,15 @@
 		
 		if(!empty($string) && !empty($find) && !empty($replace)){
 		
+		/*
          while($strpos = strpos($string , $find ,$ind)){
 			 $ind = $strpos + $strlen ; 
-			 $string = substr_replace($string  , $replace ,$strpos, $strlen);
-		 }		
+			// $string = str_replace($string  , $replace ,$strpos, $strlen);
+			$string = substr_replace($string  , $replace ,$strpos, $strlen);
+		 }*/		
 		 
-		 echo $string ;
+		 echo str_replace($find ,$replace , $string);
+		 //echo $string ;
 			
 		}else{
 			echo "Fill up All Fields";
