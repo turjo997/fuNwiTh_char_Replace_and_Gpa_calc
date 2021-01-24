@@ -2,8 +2,7 @@
 
 <html>
      <head>
-	 
-	        <title>Form</title>
+	    <title>Gpa_Calc</title>
 			
 			<link rel = "stylesheet" href="gpa_style.css"/>	
 			
