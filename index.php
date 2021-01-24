@@ -3,7 +3,7 @@
 <html>
      <head>
 	 
-	        <title>Form</title>
+	       <title>Char_Replace_Gpa_Calc</title>
 			
 			<link rel = "stylesheet" href="findreplace_style.css"/>	
 			
