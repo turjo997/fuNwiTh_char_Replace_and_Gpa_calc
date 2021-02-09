@@ -1,6 +1,6 @@
 <?php
     if(isset($_POST['submit'])) {
-        $string = $_POST['string'];
+        $string = $_POST['text'];
 		$find = $_POST['find'];
 		$replace = $_POST['replace'];
         
